@@ -1,0 +1,27 @@
+file_name:
+- DELTA\P01\0\P01_00.h5
+- DELTA\P01\1\P01_01.h5
+- DELTA\P01\2\P01_02.h5
+- DELTA\P01\3\P01_03.h5
+- DELTA\P01\4\P01_04.h5
+- DELTA\P01\5\P01_05.h5
+RF: True        # Random Features
+
+window: 400     # length in samples
+increment: 100  # samples of window shift in time
+nEMGChan: 64    # number of electromyography channels
+filter_emg_data: True # Band pass filtering 20-500Hz + Notch Filter 50Hz
+
+# Random Features:
+random_state: None # Automatically defined in the script
+n_components: None # Automatically defined in the script
+
+# Regularized Least Square params:
+gamma: None # Automatically computed in the script
+lambda: None # Automatically computed in the script
+ML_model: RFRLSC
+ML_script: Multiday_batch
+robust_opt: True # Select best hyperparameters on: mean -> False; mean-2*std -> True
+save_fig: True #Saving .png figures of results
+save_results: True # Saving .txt files of results
+save_folder: Results_TEST # Folder to save the analysis results
