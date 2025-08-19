@@ -1,0 +1,8 @@
+numpy>=1.19.1
+scipy
+scikit-learn
+river
+pyyaml
+matplotlib
+seaborn
+Cython
