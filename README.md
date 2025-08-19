@@ -2,8 +2,9 @@
 
 Repository for:
 
-_Dario Di Domenico, Nicolò Boccardo, Andrea Marinelli, Michele Canepa, Emanuele Gruppioni, Matteo Laffranchi and Raffaello Camoriano,
-"Long-Term Upper-Limb Prosthesis Myocontrol via High-Density sEMG and Incremental Learning", IEEE Robotics and Automation Letters (RA-L)_;
+_D. Di Domenico, N. Boccardo, A. Marinelli, M. Canepa, E. Gruppioni, M. Laffranchi and R. Camoriano,
+"Long-Term Upper-Limb Prosthesis Myocontrol via High-Density sEMG and Incremental Learning", IEEE Robotics and Automation Letters (RA-L), vol. 9, no. 11, pp. 9938-9945, Nov. 2024, doi: [10.1109/LRA.2024.3451388](https://doi.org/10.1109/LRA.2024.3451388)_
+
 
 >**Abstract**
 >
